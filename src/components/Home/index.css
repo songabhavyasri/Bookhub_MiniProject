@@ -1,0 +1,237 @@
+.home-container {
+  background-color: #f5f7fa;
+  height: 100vh;
+  padding: 20px 50px;
+}
+
+.hero-desc {
+  /* width: 998px; */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+
+.hero-title {
+  color: #1e293b;
+  font-family: 'roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 64px;
+  margin-bottom: 5px;
+  margin: auto;
+}
+
+.topRatedBooksContainer {
+  box-shadow: 0px 0px 1px rgba(40, 41, 61, 0.08),
+    0px 1px 2px rgba(96, 97, 112, 0.16);
+  border-radius: 6px;
+  height: 370px;
+  background-color: #ffffff;
+  padding: 0px 25px;
+  margin-top: 20px;
+}
+
+.topRatedFindBooks {
+  width: 104px;
+  height: 36px;
+  border: none;
+  color: #fff;
+  background: #0284c7;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.top-rated-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px;
+}
+
+.cover-image {
+  width: 200px;
+  height: 200px;
+  margin: 0px 10px;
+}
+
+.slider-title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+  color: #334155;
+  margin-bottom: 0px;
+}
+
+.slider-authorName {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #475569;
+  margin-top: 0px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+
+.top-rated-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.slick-container {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.slick-slide {
+  margin: 0 auto;
+}
+
+.sliderBtn {
+  background-color: transparent;
+  border: none;
+}
+
+.failureViewContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.failureViewRetryBtn {
+  width: 75px;
+  height: 32px;
+  background-color: #0284c7;
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: none;
+  color: #fff;
+  font-weight: 500;
+  font-size: 9.33333px;
+  cursor: pointer;
+}
+
+.failureImg {
+  width: 250px;
+}
+
+.failureContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.failureViewPara {
+  font-weight: 500;
+  font-size: 16px;
+  color: #475569;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.topRatedFindBooksMobile {
+  display: none;
+}
+
+.darkTheme {
+  background-color: #000;
+  color: #fff;
+}
+
+.colorWhite {
+  color: #fff;
+  width: 100%;
+}
+
+.boxColor {
+  color: #000;
+  background-color: #000;
+  border: 1px solid #fff;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+
+@media screen and (max-width: 767px) {
+  .hero-title {
+    font-size: 20px;
+    margin: 0px;
+  }
+  .hero-desc {
+    font-size: 14px;
+    font-family: roboto;
+    font-weight: 400;
+  }
+  .topRatedFindBooks {
+    display: none;
+  }
+  .topRatedFindBooksMobile {
+    display: block;
+    width: 104px;
+    height: 36px;
+    border: none;
+    color: #fff;
+    background: #0284c7;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  .topRatedBooksContainer {
+    width: 360px;
+    height: 250px;
+  }
+  .top-rated-title {
+    font-size: 16px;
+  }
+  .cover-image {
+    width: 126px;
+    height: 99px;
+  }
+  .slick-item {
+    padding-left: 10px;
+    padding-bottom: 10px;
+  }
+  .slider-title {
+    font-size: 12px;
+  }
+  .slider-authorName {
+    font-size: 10px;
+  }
+  .home-container {
+    background-color: #f5f7fa;
+    padding: 20px 20px;
+    height: 85vh;
+  }
+  .topRatedBooksContainer {
+    width: 100%;
+    margin-bottom: 0px;
+  }
+  .home-container {
+    margin-bottom: 0px;
+  }
+  .failureViewPara {
+    text-align: center;
+  }
+  .slick-prev,
+  .slick-next {
+    color: #fff;
+  }
+}

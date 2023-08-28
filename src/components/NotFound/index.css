@@ -1,0 +1,26 @@
+.goBackBtn {
+  width: 164px;
+  height: 48px;
+  background-color: #0284c7;
+  padding: 12px 24px;
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.notFound-desc {
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  color: #475569;
+  width: 550px;
+  margin-top: 0px;
+}
+
+.notFoundTitle {
+  font-weight: 500;
+  font-size: 32px;
+  color: #334155;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,120 @@
+.favImage {
+  width: 200px;
+  height: 250px;
+}
+
+.favHeading {
+  font-size: 20px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.fav-container {
+  padding: 20px;
+  font-family: 'inter';
+  height: 100vh;
+}
+
+.fav-ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.favTitle {
+  font-size: 20px;
+  text-align: center;
+  color: #475569;
+  margin-bottom: 5px;
+}
+
+.favList {
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.NoFavContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.favStatus {
+  text-align: center;
+  color: #475569;
+  font-weight: 500;
+  font-size: 17px;
+  margin-bottom: 5px;
+  margin-top: 0px;
+}
+
+span {
+  color: #0284c7;
+}
+
+.favContainerBlack {
+  background-color: #000;
+}
+
+.colorWhite {
+  color: #fff;
+}
+
+.noFavTitle {
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.deleteBtnContainer {
+  background-color: #0284c7;
+  color: #fff;
+  border-radius: 4px;
+  width: 100%;
+  height: 32px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.deleteBtn {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 786px) {
+  .noFavImage {
+    width: 300px;
+  }
+  .fav-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .NoFavContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  .detailsRating {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .fav-ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}

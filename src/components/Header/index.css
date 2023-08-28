@@ -1,0 +1,91 @@
+.navbar {
+  height: 69px;
+  border: 1px solid #e4e7eb;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.m-nav {
+  height: 69px;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-bottom: 1px solid #fff;
+}
+
+.nav-links,
+.nav-ul-items {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+  color: #64748b;
+}
+
+.logout-btn {
+  background-color: #0284c7;
+  color: #fff;
+  border-radius: 4px;
+  width: 73px;
+  height: 32px;
+  border: none;
+  cursor: pointer;
+}
+
+.home-logo {
+  width: 100px;
+}
+
+.link {
+  color: #64748b;
+  text-decoration: none;
+}
+
+.active-tab {
+  color: #0284c7;
+  font-weight: 500;
+  font-size: 16px;
+}
+.mobileNav {
+  display: none;
+}
+
+.themeSwitcher {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.theme-icon {
+  height: 30px;
+  width: 30px;
+}
+
+.themeColor {
+  color: #fff;
+}
+
+.darkTheme {
+  background-color: #000;
+  border: 1px solid #000;
+}
+
+@media screen and (max-width: 786px) {
+  .nav-ul-items {
+    display: none;
+  }
+
+  .mobileNav {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+}

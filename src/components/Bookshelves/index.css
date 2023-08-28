@@ -1,0 +1,323 @@
+.main-bookshelves-container {
+  display: flex;
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: #f5f7fa;
+  height: 100%;
+  background-size: cover;
+}
+
+.sidebar-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  margin-left: 40px;
+}
+
+.sidebar-ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.shelves-list {
+  margin-bottom: 14px;
+  font-size: 16px;
+  color: #475569;
+}
+
+.shelves-list-white {
+  margin-bottom: 14px;
+  font-size: 16px;
+  color: #fff;
+}
+
+.sidebar {
+  background-color: #fff;
+  width: 300px;
+  box-shadow: 0px 0px 1px rgba(40, 41, 61, 0.08),
+    0px 1px 2px rgba(96, 97, 112, 0.16);
+}
+
+.bookShelvesList {
+  /* margin: 0px 0px; */
+  width: 100%;
+}
+
+.searchContainer-Title {
+  margin-left: 20px;
+  font-weight: 600;
+  font-size: 18px;
+  color: #334155;
+}
+
+.searchContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.searchElement {
+  display: flex;
+  align-items: center;
+  border: 1px solid #b2b2b7;
+  color: #edeff1;
+  border-radius: 4px;
+}
+
+.searchInput {
+  width: 264px;
+  height: 36px;
+}
+
+.search-icon {
+  color: #0e0e0f;
+  width: 50px;
+}
+
+.sidebarListBtn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.shelvesCoverImage {
+  width: 133px;
+  height: 155px;
+  border-radius: 8px;
+}
+
+.booksList {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin-top: 10px;
+  margin-bottom: 145px;
+  margin-left: 20px;
+}
+
+.d-sidebar {
+  margin-left: 35px;
+}
+
+.bookShelvesDetails {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.mobileResponsiveBtn {
+  display: none;
+}
+
+.shelves-title {
+  margin-top: 0px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #334155;
+  width: 200px;
+}
+
+.shelves-status,
+.shelves-rating,
+.shelves-author {
+  font-weight: 500;
+  font-size: 14px;
+  color: #475569;
+  gap: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.span-rating {
+  font-weight: 400;
+  font-size: 14px;
+  color: #334155;
+}
+
+.star-icon {
+  color: #fbbf24;
+  margin-top: 3px;
+}
+
+.span-status {
+  font-weight: 500;
+  font-size: 14px;
+  color: #0284c7;
+  margin-top: 1px;
+}
+
+.searchBtn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.activeTab {
+  color: #0284c7;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.notFoundText {
+  font-weight: 500;
+  font-size: 24px;
+  color: #334155;
+}
+
+.notFoundContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.loader-spinner-container {
+  margin-bottom: 400px;
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bookShelvesFailureText {
+  font-weight: 500;
+  font-size: 24px;
+  color: #475569;
+}
+
+.bookShelvesFailureRetryBtn {
+  width: 112px;
+  height: 48px;
+  background-color: #0284c7;
+  padding: 12px 24px;
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.bookShelvesFailureViewContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+  margin-top: 50px;
+}
+
+.footer-section {
+  display: flex;
+  justify-content: center;
+}
+
+.sidebarBgBlack {
+  background-color: #000;
+  border: 1px solid #fff;
+}
+
+.searchBgWhite {
+  color: #fff;
+  background-color: transparent;
+}
+
+.colorWhite {
+  color: #fff;
+}
+
+.bgDark {
+  background-color: #000;
+}
+
+.icon-White {
+  color: #fff;
+}
+
+@media screen and (max-width: 786px) {
+  .main-bookshelves-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-left: 30px;
+    width: 100vw;
+    margin: 0px;
+  }
+  .searchContainer-Title {
+    display: none;
+  }
+  .sidebar {
+    display: none;
+  }
+  .mobile-shelves-list {
+    list-style: none;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 10px;
+  }
+  .mListBtn {
+    background-color: transparent;
+    border: 1px solid #0284c7;
+    border-radius: 15px;
+    padding-top: 4px;
+    padding-bottom: 6px;
+    padding-left: 16px;
+    padding-right: 16px;
+    width: 100%;
+    height: 25px;
+    color: #000;
+    cursor: pointer;
+  }
+  .mobileButtonList {
+    font-size: 14px;
+    color: #000;
+  }
+
+  .mobileButtonListBlack {
+    font-size: 14px;
+    color: #fff;
+  }
+
+  .mHeading {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .activeColor {
+    background-color: #0284c7;
+    color: #fff;
+  }
+
+  .booksList {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin-top: 10px;
+    margin-bottom: 145px;
+    margin-left: 0px;
+  }
+  .mobileResponsiveBtn {
+    display: block;
+  }
+  .noResultsImage {
+    width: 250px;
+    height: 200px;
+  }
+  .notFoundText {
+    text-align: center;
+  }
+  .failureMobileImage {
+    width: 300px;
+  }
+  .bookShelvesFailureText {
+    text-align: center;
+  }
+}
+
+.userSearch {
+  font-weight: bold;
+}
